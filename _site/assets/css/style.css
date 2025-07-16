@@ -103,11 +103,39 @@ a:hover {
   box-shadow: 0px 2px 8px rgba(255, 215, 0, 0.07);
 }
 
+.team-images {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.team-image {
+  max-width: 500px;
+  margin: 0;
+}
+
 @media (max-width: 600px) {
   .main-content {
     padding: 1rem;
   }
   .page-header {
     padding: 1.5rem 0;
+  }
+  .team-images {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    margin: 30px 0;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .team-image {
+    max-width: 500px;
+    margin: 0;
   }
 }
