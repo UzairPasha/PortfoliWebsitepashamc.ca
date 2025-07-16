@@ -135,5 +135,6 @@ a:hover {
   }
   .team-image {
     max-width: 100%;
+    margin: 0px;
   }
 }
